@@ -48,7 +48,7 @@ def get_sql_logs(request):
                 # Add the structured query details to the list
                 data["query_details"].append(
                     {
-                        "time_taken": time_taken,
+                        "time": time_taken,
                         "query": query,
                         "args": args,
                         "alias": alias,
