@@ -1,4 +1,4 @@
-# [Django Core](https://github.com/app-generator/core-django)
+# [Django Django Grafana](https://github.com/app-generator/core-django)
 
 Minimal **Django** project with `Docker` support - actively supported by [App Generator](https://app-generator.dev/) via `Email` and **[Discord](https://discord.gg/fZC6hup)**. 
 
@@ -72,6 +72,25 @@ $ python manage.py runserver
 ```
 
 At this point, the app runs at `http://127.0.0.1:8000/`. 
+
+<br />
+
+> 👉 Install Grafana
+
+For Linux 👇
+
+```bash
+$ sudo systemctl start grafana-server
+$ sudo systemctl enable grafana-server
+```
+
+For macOS (using Homebrew):
+
+```bash
+$ brew services start grafana
+```
+
+Open Grafana by going to http://localhost:3000 in your browser. Use the default username and password (admin/admin) to log in. Change the password when prompted.
 
 <br />
 
