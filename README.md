@@ -1,47 +1,19 @@
-# [Django Django Grafana](https://github.com/app-generator/core-django)
+# [Django & Grafana Integration](https://app-generator.dev/docs/technologies/django/integrate-grafana.html)
 
-Minimal **Django** project with `Docker` support - actively supported by [App Generator](https://app-generator.dev/) via `Email` and **[Discord](https://discord.gg/fZC6hup)**. 
+Coding sample for **Django & Grafana Integration** documentation page. The postproduction step in software development is crucial to tracking performances, correcting bugs, and improving an application. 
+With Django, you can integrate Grafana, a powerful tool to aggregate logs and view these logs on the dashboard.
 
----
-
-> For a **complete set of features** and long-term support, check out **[Dynamic Django](https://app-generator.dev/docs/developer-tools/dynamic-django/index.html)**, a powerful starter that incorporates:
-
-- ✅ [Dynamic DataTables](https://app-generator.dev/docs/developer-tools/dynamic-django/datatables.html): using a single line of configuration, the data saved in any table is automatically managed
-- ✅ [Dynamic API](https://app-generator.dev/docs/developer-tools/dynamic-django/api.html): any model can become a secure API Endpoint using DRF
-- ✅ [Dynamic Charts](https://app-generator.dev/docs/developer-tools/dynamic-django/charts.html): extract relevant charts without coding all major types are supported
-- ✅ [CSV Loader](https://app-generator.dev/docs/developer-tools/dynamic-django/csv-loader.html): translate CSV files into Django Models and (optional) load the information
-- ✅ Powerful [CLI Tools](https://app-generator.dev/docs/developer-tools/dynamic-django/cli.html) for the GIT interface, configuration editing, updating the configuration and database (create models, migrate DB)
+> 👉 [Free Support](https://app-generator.dev/ticket/create/) via `email` & `Discord` 
 
 <br />
 
-## Start in `Docker`
-
-> 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
-
-```bash
-$ git clone https://github.com/app-generator/core-django.git
-$ cd core-django
-```
-
-<br />
-
-> 👉 **Step 2** - Start the APP in `Docker`
-
-```bash
-$ docker-compose up --build 
-```
-
-Visit `http://localhost:5085` in your browser. The app should be up & running.
-
-<br />
-
-## Manual Build 
+## Build 
 
 > 👉 Download the code  
 
 ```bash
-$ git clone https://github.com/app-generator/core-django.git
-$ cd core-django
+$ git clone https://github.com/app-generator/docs-django-snowflake.git
+$ cd docs-django-snowflake
 ```
 
 <br />
@@ -95,4 +67,4 @@ Open Grafana by going to http://localhost:3000 in your browser. Use the default 
 <br />
 
 ---
-**[Django Core](https://github.com/app-generator/core-django)** - Minimal **Django** core provided by **[AppSeed](https://appseed.us/)**
+**[Django & Grafana Integration](https://app-generator.dev/docs/technologies/django/integrate-grafana.html)** - Coding sample provided by **[App Generator](https://app-generator.dev/)**
