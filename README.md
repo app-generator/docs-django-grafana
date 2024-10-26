@@ -1,6 +1,6 @@
 # [Django & Grafana Integration](https://app-generator.dev/docs/technologies/django/integrate-grafana.html)
 
-Coding sample for **[Django & Grafana Integration](https://app-generator.dev/docs/technologies/django/integrate-grafana.html)** documentation page. The postproduction step in software development is crucial to tracking performances, correcting bugs, and improving an application. 
+Coding sample for **[Django & Grafana Integration documentation page](https://app-generator.dev/docs/technologies/django/integrate-grafana.html)**. The postproduction step in software development is crucial to tracking performances, correcting bugs, and improving an application. 
 With Django, you can integrate Grafana, a powerful tool to aggregate logs and view these logs on the dashboard.
 
 > 👉 Get [Support](https://app-generator.dev/ticket/create/) via `email` & `Discord`  
